@@ -6,6 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Email with Embedded Video Banner</title>
   <style type="text/css">
+    @import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
     * {
       margin: 0;
       border: 0;
@@ -13,11 +14,34 @@
     }
 
     body {
+      font-family: 'Lato', sans-serif, monospace;
       background-color: #d8dbdb;
       font-size: 16px;
       max-width: 700px;
       margin: 0 auto;
-      
+      padding: 2%;
+      color: #565859;
+    }
+
+    .wrapper {
+      background-color: #f6faff;
+      box-shadow: 0 0 10px #666;
+    }
+
+    img {
+      max-width: 100%;
+    }
+
+    .logo {
+      padding: 1% 0;
+      text-align: center;
+    }
+    .logo img {
+      max-width: 220px;
+    }
+    h1, h2 {
+      letter-spacing: 1px;
+      padding-bottom: 15px;
     }
   </style>
 </head>
